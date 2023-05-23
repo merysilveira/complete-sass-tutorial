@@ -1,16 +1,23 @@
 // variables & functions
+@import 'functions';
 @import 'variables';
 
 // base & layout
 @import 'base';
+@import 'breakpoints';
+@import 'grid';
 
 // colors
 @import 'colors';
 
 // components (button, card, navbar)
 @import 'components/card';
+@import 'components/button';
+@import 'components/navbar';
+@import 'components/badge';
 
-// utilities (margin, padding, opacity)
+// utilities (margin, padding, opacity) m-4 pl-3 o-40
+@import 'utilities';
 
 
 
